@@ -90,8 +90,6 @@ def solve(file_name: str) -> int:
             number = combine(first_digit, last_digit)
             numbers.append(number)
 
-    print(numbers)
-
     return sum(numbers)
 
 if __name__ == "__main__":
